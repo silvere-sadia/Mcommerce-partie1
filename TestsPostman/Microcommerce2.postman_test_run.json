@@ -1,0 +1,106 @@
+{
+	"id": "3a506440-006d-428e-841a-09c46b365a84",
+	"name": "Microcommerce2",
+	"timestamp": "2020-05-06T12:49:30.208Z",
+	"collection_id": "d119bd78-5739-4765-a392-b4e148a62641",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c2a7a17c-22e5-40c8-9383-42709103e232",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				20
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3c67d33c-7ecb-4952-9d43-c429bcb69293",
+			"name": "http://localhost:9090/Produits/AdminProduits",
+			"url": "http://localhost:9090/Produits/AdminProduits",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4f010bbc-a48c-4c34-af0c-8a2cc1483dca",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 16,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				16
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3f119d35-ad46-4d7d-b0c0-99b62bbabe38",
+			"name": "http://localhost:9090/Produits/OrdreCroissant",
+			"url": "http://localhost:9090/Produits/OrdreCroissant",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				62
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 112,
+	"collection": {
+		"requests": [
+			{
+				"id": "c2a7a17c-22e5-40c8-9383-42709103e232",
+				"method": "GET"
+			},
+			{
+				"id": "3c67d33c-7ecb-4952-9d43-c429bcb69293",
+				"method": "GET"
+			},
+			{
+				"id": "4f010bbc-a48c-4c34-af0c-8a2cc1483dca",
+				"method": "POST"
+			},
+			{
+				"id": "3f119d35-ad46-4d7d-b0c0-99b62bbabe38",
+				"method": "GET"
+			}
+		]
+	}
+}

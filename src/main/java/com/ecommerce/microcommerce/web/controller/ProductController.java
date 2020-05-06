@@ -112,10 +112,15 @@ public class ProductController {
 
         ArrayList marge = new ArrayList<>();
 
-        for( Product produit : produits ) {
+        for( Product produit : produits )
             marge.add(produit.toString() + " : "  + (produit.getPrix() - produit.getPrixAchat()));
-        }
 
         return marge;
+    }
+
+    @GetMapping(value = "/Produits/OrdreCroissant")
+    @ApiOperation(value = "Lister les produits en leur triant par ordre alphabétique croissant")
+    public List<Product> trierProduitsParOrdreAlphabetique(){
+        return productDao.listeParOrdreAlphabetiqueCroissant();
     }
 }
